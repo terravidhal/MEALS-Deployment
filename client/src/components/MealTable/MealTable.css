@@ -1,0 +1,24 @@
+.MealTable{
+   
+}
+.MealTable table{
+   margin-top: 30px;
+   border-bottom: 1px solid;
+}
+.MealTable table thead tr th{
+   border: 1px solid;
+   border-bottom: 0px solid;
+}
+.MealTable table tbody tr td{
+   border: 1px solid;
+   border-bottom: 0px solid;
+}
+.MealTable table tbody tr td:nth-child(1),
+.MealTable table tbody tr td:nth-child(2),
+.MealTable table tbody tr td:nth-child(3){
+   border-top: 0px solid;
+}
+.MealTable tr > td.actions{
+   vertical-align: middle;
+}
+
